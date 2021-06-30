@@ -11,7 +11,7 @@ public class Main {
         //Code aus Project entnommen
 
         System.out.println("Starting REST Service...");
-        ResourceConfig rc = new ResourceConfig().packages("at.labuda");
+        ResourceConfig rc = new ResourceConfig().packages("at.resources");
         HttpServer server = JdkHttpServerFactory.createHttpServer(URI.create("http://localhost:8080/"), rc);
         System.out.println("Server started");
 
